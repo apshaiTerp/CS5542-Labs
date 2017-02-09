@@ -1,0 +1,569 @@
+"C:\Program Files\Java\jdk1.8.0_92\bin\java" -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Users\ac010168\workspaces\umkc\VideoSummaryProject\target\classes;C:\Users\ac010168\.m2\repository\com\clarifai\clarifai-api2\core\2.1.0\core-2.1.0.jar;C:\Users\ac010168\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\ac010168\.m2\repository\com\squareup\okhttp3\okhttp\3.4.1\okhttp-3.4.1.jar;C:\Users\ac010168\.m2\repository\com\squareup\okio\okio\1.9.0\okio-1.9.0.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core\1.3.5\core-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-citation\1.3.5\core-citation-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-aop-support\1.3.5\core-aop-support-1.3.5.jar;C:\Users\ac010168\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\ac010168\.m2\repository\org\jbibtex\jbibtex\1.0.2\jbibtex-1.0.2.jar;C:\Users\ac010168\.m2\repository\org\jsoup\jsoup\1.6.3\jsoup-1.6.3.jar;C:\Users\ac010168\.m2\repository\net\sf\trove4j\trove4j\3.0.2\trove4j-3.0.2.jar;C:\Users\ac010168\.m2\repository\com\google\guava\guava\14.0.1\guava-14.0.1.jar;C:\Users\ac010168\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\ac010168\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\ac010168\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\ac010168\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\ac010168\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\ac010168\.m2\repository\org\apache\commons\commons-vfs2\2.0\commons-vfs2-2.0.jar;C:\Users\ac010168\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\ac010168\.m2\repository\org\apache\maven\scm\maven-scm-api\1.4\maven-scm-api-1.4.jar;C:\Users\ac010168\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.6\plexus-utils-1.5.6.jar;C:\Users\ac010168\.m2\repository\org\apache\maven\scm\maven-scm-provider-svnexe\1.4\maven-scm-provider-svnexe-1.4.jar;C:\Users\ac010168\.m2\repository\org\apache\maven\scm\maven-scm-provider-svn-commons\1.4\maven-scm-provider-svn-commons-1.4.jar;C:\Users\ac010168\.m2\repository\regexp\regexp\1.3\regexp-1.3.jar;C:\Users\ac010168\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\ac010168\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\ac010168\.m2\repository\com\esotericsoftware\kryo\kryo\2.21\kryo-2.21.jar;C:\Users\ac010168\.m2\repository\com\esotericsoftware\reflectasm\reflectasm\1.07\reflectasm-1.07-shaded.jar;C:\Users\ac010168\.m2\repository\org\ow2\asm\asm\4.0\asm-4.0.jar;C:\Users\ac010168\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\ac010168\.m2\repository\org\objenesis\objenesis\1.2\objenesis-1.2.jar;C:\Users\ac010168\.m2\repository\vigna\dsi\unimi\it\jal\20031117\jal-20031117.jar;C:\Users\ac010168\.m2\repository\org\apache\ant\ant\1.8.4\ant-1.8.4.jar;C:\Users\ac010168\.m2\repository\org\apache\ant\ant-launcher\1.8.4\ant-launcher-1.8.4.jar;C:\Users\ac010168\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\ac010168\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\ac010168\.m2\repository\uk\com\robust-it\cloning\1.9.1\cloning-1.9.1.jar;C:\Users\ac010168\.m2\repository\org\openimaj\image-feature-extraction\1.3.5\image-feature-extraction-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\image-processing\1.3.5\image-processing-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-experiment\1.3.5\core-experiment-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\IREval\1.3.5\IREval-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\ac010168\.m2\repository\com\googlecode\jatl\jatl\0.2.1\jatl-0.2.1.jar;C:\Users\ac010168\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Users\ac010168\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Users\ac010168\.m2\repository\net\sf\jasperreports\jasperreports\4.6.0\jasperreports-4.6.0.jar;C:\Users\ac010168\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\ac010168\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar;C:\Users\ac010168\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\ac010168\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\ac010168\.m2\repository\bouncycastle\bcmail-jdk14\138\bcmail-jdk14-138.jar;C:\Users\ac010168\.m2\repository\bouncycastle\bcprov-jdk14\138\bcprov-jdk14-138.jar;C:\Users\ac010168\.m2\repository\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;C:\Users\ac010168\.m2\repository\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;C:\Users\ac010168\.m2\repository\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;C:\Users\ac010168\.m2\repository\eclipse\jdtcore\3.1.0\jdtcore-3.1.0.jar;C:\Users\ac010168\.m2\repository\org\codehaus\castor\castor\1.2\castor-1.2.jar;C:\Users\ac010168\.m2\repository\org\apache\poi\poi-ooxml\3.7\poi-ooxml-3.7.jar;C:\Users\ac010168\.m2\repository\org\apache\poi\poi\3.7\poi-3.7.jar;C:\Users\ac010168\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.7\poi-ooxml-schemas-3.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\ac010168\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\ac010168\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\ac010168\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\ac010168\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.4\jackson-core-asl-1.9.4.jar;C:\Users\ac010168\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.4\jackson-mapper-asl-1.9.4.jar;C:\Users\ac010168\.m2\repository\org\bethecoder\ascii-table\1.0\ascii-table-1.0.jar;C:\Users\ac010168\.m2\repository\org\openimaj\JTransforms\1.3.5\JTransforms-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\clustering\1.3.5\clustering-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\nearest-neighbour\1.3.5\nearest-neighbour-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-feature\1.3.5\core-feature-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\machine-learning\1.3.5\machine-learning-1.3.5.jar;C:\Users\ac010168\.m2\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;C:\Users\ac010168\.m2\repository\de\bwaldvogel\liblinear-dense\1.92\liblinear-dense-1.92.jar;C:\Users\ac010168\.m2\repository\tw\edu\ntu\csie\libsvm\3.1\libsvm-3.1.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-image\1.3.5\core-image-1.3.5.jar;C:\Users\ac010168\.m2\repository\net\billylieurance\azuresearch\azure-bing-search-java\0.12.0\azure-bing-search-java-0.12.0.jar;C:\Users\ac010168\.m2\repository\net\sourceforge\jeuclid\jeuclid-core\3.1.9\jeuclid-core-3.1.9.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.7\batik-svg-dom-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-anim\1.7\batik-anim-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.7\batik-awt-util-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-css\1.7\batik-css-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-dom\1.7\batik-dom-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-xml\1.7\batik-xml-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-ext\1.7\batik-ext-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-parser\1.7\batik-parser-1.7.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\batik-util\1.7\batik-util-1.7.jar;C:\Users\ac010168\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\ac010168\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\ac010168\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.3.1\xmlgraphics-commons-1.3.1.jar;C:\Users\ac010168\.m2\repository\uk\ac\ed\ph\snuggletex\snuggletex-core\1.2.2\snuggletex-core-1.2.2.jar;C:\Users\ac010168\.m2\repository\uk\ac\ed\ph\snuggletex\snuggletex-upconversion\1.2.2\snuggletex-upconversion-1.2.2.jar;C:\Users\ac010168\.m2\repository\net\sf\saxon\saxon9\9.1.0.8\saxon9-9.1.0.8.jar;C:\Users\ac010168\.m2\repository\net\sf\saxon\saxon9-dom\9.1.0.8\saxon9-dom-9.1.0.8.jar;C:\Users\ac010168\.m2\repository\uk\ac\ed\ph\snuggletex\snuggletex-jeuclid\1.2.2\snuggletex-jeuclid-1.2.2.jar;C:\Users\ac010168\.m2\repository\com\flickr4java\flickr4java\2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4\flickr4java-2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4.jar;C:\Users\ac010168\.m2\repository\org\scribe\scribe\1.3.5\scribe-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\apache\axis\axis\1.4\axis-1.4.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-math\1.3.5\core-math-1.3.5.jar;C:\Users\ac010168\.m2\repository\gov\nist\math\jama\1.0.3\jama-1.0.3.jar;C:\Users\ac010168\.m2\repository\org\la4j\la4j\0.4.0\la4j-0.4.0.jar;C:\Users\ac010168\.m2\repository\com\googlecode\matrix-toolkits-java\mtj\1.0.2\mtj-1.0.2.jar;C:\Users\ac010168\.m2\repository\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\core\1.1.2\core-1.1.2.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_ref-osx-x86_64\1.1\netlib-native_ref-osx-x86_64-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\native_ref-java\1.1\native_ref-java-1.1.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\jniloader\1.1\jniloader-1.1.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-x86_64\1.1\netlib-native_ref-linux-x86_64-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-i686\1.1\netlib-native_ref-linux-i686-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-x86_64\1.1\netlib-native_ref-win-x86_64-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-i686\1.1\netlib-native_ref-win-i686-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-armhf\1.1\netlib-native_ref-linux-armhf-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_system-osx-x86_64\1.1\netlib-native_system-osx-x86_64-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\native_system-java\1.1\native_system-java-1.1.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-x86_64\1.1\netlib-native_system-linux-x86_64-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-i686\1.1\netlib-native_system-linux-i686-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-armhf\1.1\netlib-native_system-linux-armhf-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-x86_64\1.1\netlib-native_system-win-x86_64-1.1-natives.jar;C:\Users\ac010168\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-i686\1.1\netlib-native_system-win-i686-1.1-natives.jar;C:\Users\ac010168\.m2\repository\net\sf\jafama\JaFaMa\1.2\JaFaMa-1.2.jar;C:\Users\ac010168\.m2\repository\jgrapht\jgrapht\0.8.2\jgrapht-0.8.2.jar;C:\Users\ac010168\.m2\repository\org\openimaj\MatrixLib\1.3.5\MatrixLib-1.3.5.jar;C:\Users\ac010168\.m2\repository\com\googlecode\netlib-java\netlib-java\0.9.3\netlib-java-0.9.3.jar;C:\Users\ac010168\.m2\repository\gov\sandia\foundry\gov-sandia-cognition-common-core\3.3.0\gov-sandia-cognition-common-core-3.3.0.jar;C:\Users\ac010168\.m2\repository\com\thoughtworks\xstream\xstream\1.4.3\xstream-1.4.3.jar;C:\Users\ac010168\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\ac010168\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\ac010168\.m2\repository\gov\sandia\foundry\gov-sandia-cognition-learning-core\3.3.0\gov-sandia-cognition-learning-core-3.3.0.jar;C:\Users\ac010168\.m2\repository\net\sourceforge\jmatio\jmatio\1.2\jmatio-1.2.jar;C:\Users\ac010168\.m2\repository\org\apache\commons\commons-math3\3.3\commons-math3-3.3.jar;C:\Users\ac010168\.m2\repository\org\apache\sanselan\sanselan\0.97-incubator\sanselan-0.97-incubator.jar;C:\Users\ac010168\.m2\repository\com\caffeineowl\bezier-utils\1.0.0-RELEASE\bezier-utils-1.0.0-RELEASE.jar;C:\Users\ac010168\.m2\repository\javax\media\jai-core\1.1.3\jai-core-1.1.3.jar;C:\Users\ac010168\.m2\repository\com\sun\media\jai-codec\1.1.3\jai-codec-1.1.3.jar;C:\Users\ac010168\.m2\repository\com\twelvemonkeys\imageio\imageio-jpeg\3.0-rc5\imageio-jpeg-3.0-rc5.jar;C:\Users\ac010168\.m2\repository\com\twelvemonkeys\imageio\imageio-metadata\3.0-rc5\imageio-metadata-3.0-rc5.jar;C:\Users\ac010168\.m2\repository\com\twelvemonkeys\common\common-io\3.0-rc5\common-io-3.0-rc5.jar;C:\Users\ac010168\.m2\repository\com\twelvemonkeys\common\common-image\3.0-rc5\common-image-3.0-rc5.jar;C:\Users\ac010168\.m2\repository\com\twelvemonkeys\imageio\imageio-core\3.0-rc5\imageio-core-3.0-rc5.jar;C:\Users\ac010168\.m2\repository\com\twelvemonkeys\common\common-lang\3.0-rc5\common-lang-3.0-rc5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-video\1.3.5\core-video-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\core-audio\1.3.5\core-audio-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\content\animation\1.3.5\animation-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\image-local-features\1.3.5\image-local-features-1.3.5.jar;C:\Users\ac010168\.m2\repository\org\openimaj\xuggle-video\1.3.5\xuggle-video-1.3.5.jar;C:\Users\ac010168\.m2\repository\xuggle\xuggle-xuggler-lgpl\5.5-20140728\xuggle-xuggler-lgpl-5.5-20140728.jar;C:\Users\ac010168\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Users\ac010168\.m2\repository\commons-cli\commons-cli\1.1\commons-cli-1.1.jar;C:\Users\ac010168\.m2\repository\ch\qos\logback\logback-core\1.0.0\logback-core-1.0.0.jar;C:\Users\ac010168\.m2\repository\ch\qos\logback\logback-classic\1.0.0\logback-classic-1.0.0.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain VideoSummary
+21:27:07.364 [main] DEBUG com.xuggle.xuggler - Could not open output url: file:/C:/Users/ac010168/workspaces/umkc/VideoSummaryProject/input/JW1.wmv (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:436)
+Feb 08, 2017 9:27:30 PM com.github.fommil.netlib.LAPACK <clinit>
+WARNING: Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+Feb 08, 2017 9:27:30 PM com.github.fommil.jni.JniLoader liberalLoad
+INFO: successfully loaded C:\Users\ac010168\AppData\Local\Temp\jniloader1155431685764613407netlib-native_ref-win-x86_64.dll
+Image 1 of 373: 2925.0
+Image 2 of 373: 2549.0
+Image 3 of 373: 4492.0
+Image 4 of 373: 2835.0
+Image 5 of 373: 2830.0
+Image 6 of 373: 3053.0
+Image 7 of 373: 2564.0
+Image 8 of 373: 5098.0
+Image 9 of 373: 2409.0
+Image 10 of 373: 3351.0
+Image 11 of 373: 2747.0
+Image 12 of 373: 3928.0
+Image 13 of 373: 5135.0
+Image 14 of 373: 2568.0
+Image 15 of 373: 3380.0
+Image 16 of 373: 3302.0
+Image 17 of 373: 3658.0
+Image 18 of 373: 4406.0
+Image 19 of 373: 2471.0
+Image 20 of 373: 3847.0
+Image 21 of 373: 2773.0
+Image 22 of 373: 2921.0
+Image 23 of 373: 5528.0
+Image 24 of 373: 3319.0
+Image 25 of 373: 3712.0
+Image 26 of 373: 3512.0
+Image 27 of 373: 3686.0
+Image 28 of 373: 4797.0
+Image 29 of 373: 2480.0
+Image 30 of 373: 3368.0
+Image 31 of 373: 3859.0
+Image 32 of 373: 3800.0
+Image 33 of 373: 5390.0
+Image 34 of 373: 2112.0
+Image 35 of 373: 3747.0
+Image 36 of 373: 3433.0
+Image 37 of 373: 5.0
+Image 38 of 373: 3854.0
+Image 39 of 373: 2732.0
+Image 40 of 373: 2568.0
+Image 41 of 373: 1587.0
+Image 42 of 373: 2769.0
+Image 43 of 373: 3908.0
+Image 44 of 373: 1604.0
+Image 45 of 373: 2744.0
+Image 46 of 373: 2587.0
+Image 47 of 373: 2708.0
+Image 48 of 373: 3856.0
+Image 49 of 373: 2326.0
+Image 50 of 373: 2583.0
+Image 51 of 373: 2261.0
+Image 52 of 373: 1953.0
+Image 53 of 373: 3756.0
+Image 54 of 373: 1800.0
+Image 55 of 373: 2421.0
+Image 56 of 373: 2195.0
+Image 57 of 373: 2363.0
+Image 58 of 373: 3693.0
+Image 59 of 373: 1173.0
+Image 60 of 373: 2175.0
+Image 61 of 373: 1339.0
+Image 62 of 373: 1489.0
+Image 63 of 373: 3525.0
+Image 64 of 373: 2009.0
+Image 65 of 373: 1290.0
+Image 66 of 373: 2160.0
+Image 67 of 373: 2204.0
+Image 68 of 373: 3562.0
+Image 69 of 373: 1545.0
+Image 70 of 373: 2507.0
+Image 71 of 373: 2231.0
+Image 72 of 373: 1640.0
+Image 73 of 373: 3351.0
+Image 74 of 373: 2464.0
+Image 75 of 373: 4.0
+Image 76 of 373: 985.0
+Image 77 of 373: 1031.0
+Image 78 of 373: 892.0
+Image 79 of 373: 895.0
+Image 80 of 373: 1048.0
+Image 81 of 373: 808.0
+Image 82 of 373: 856.0
+Image 83 of 373: 1567.0
+Image 84 of 373: 686.0
+Image 85 of 373: 708.0
+Image 86 of 373: 760.0
+Image 87 of 373: 532.0
+Image 88 of 373: 1484.0
+Image 89 of 373: 552.0
+Image 90 of 373: 529.0
+Image 91 of 373: 531.0
+Image 92 of 373: 550.0
+Image 93 of 373: 1291.0
+Image 94 of 373: 666.0
+Image 95 of 373: 558.0
+Image 96 of 373: 422.0
+Image 97 of 373: 509.0
+Image 98 of 373: 1012.0
+Image 99 of 373: 449.0
+Image 100 of 373: 412.0
+Image 101 of 373: 310.0
+Image 102 of 373: 291.0
+Image 103 of 373: 838.0
+Image 104 of 373: 342.0
+Image 105 of 373: 290.0
+Image 106 of 373: 262.0
+Image 107 of 373: 9.0
+Image 108 of 373: 1290.0
+Image 109 of 373: 411.0
+Image 110 of 373: 391.0
+Image 111 of 373: 433.0
+Image 112 of 373: 361.0
+Image 113 of 373: 1357.0
+Image 114 of 373: 395.0
+Image 115 of 373: 299.0
+Image 116 of 373: 325.0
+Image 117 of 373: 286.0
+Image 118 of 373: 405.0
+Image 119 of 373: 272.0
+Image 120 of 373: 260.0
+Image 121 of 373: 251.0
+Image 122 of 373: 286.0
+Image 123 of 373: 1245.0
+Image 124 of 373: 271.0
+Image 125 of 373: 247.0
+Image 126 of 373: 232.0
+Image 127 of 373: 228.0
+Image 128 of 373: 1395.0
+Image 129 of 373: 184.0
+Image 130 of 373: 212.0
+Image 131 of 373: 210.0
+Image 132 of 373: 243.0
+Image 133 of 373: 1299.0
+Image 134 of 373: 221.0
+Image 135 of 373: 234.0
+Image 136 of 373: 254.0
+Image 137 of 373: 4.0
+Image 138 of 373: 1392.0
+Image 139 of 373: 675.0
+Image 140 of 373: 504.0
+Image 141 of 373: 579.0
+Image 142 of 373: 624.0
+Image 143 of 373: 1485.0
+Image 144 of 373: 563.0
+Image 145 of 373: 745.0
+Image 146 of 373: 609.0
+Image 147 of 373: 886.0
+Image 148 of 373: 1709.0
+Image 149 of 373: 729.0
+Image 150 of 373: 726.0
+Image 151 of 373: 794.0
+Image 152 of 373: 782.0
+Image 153 of 373: 1866.0
+Image 154 of 373: 635.0
+Image 155 of 373: 623.0
+Image 156 of 373: 638.0
+Image 157 of 373: 586.0
+Image 158 of 373: 1463.0
+Image 159 of 373: 624.0
+Image 160 of 373: 636.0
+Image 161 of 373: 491.0
+Image 162 of 373: 559.0
+Image 163 of 373: 2023.0
+Image 164 of 373: 972.0
+Image 165 of 373: 801.0
+Image 166 of 373: 906.0
+Image 167 of 373: 1308.0
+Image 168 of 373: 2265.0
+Image 169 of 373: 1208.0
+Image 170 of 373: 890.0
+Image 171 of 373: 886.0
+Image 172 of 373: 765.0
+Image 173 of 373: 1680.0
+Image 174 of 373: 251.0
+Image 175 of 373: 511.0
+Image 176 of 373: 255.0
+Image 177 of 373: 110.0
+Image 178 of 373: 450.0
+Image 179 of 373: 126.0
+Image 180 of 373: 218.0
+Image 181 of 373: 163.0
+Image 182 of 373: 85.0
+Image 183 of 373: 875.0
+Image 184 of 373: 106.0
+Image 185 of 373: 94.0
+Image 186 of 373: 111.0
+Image 187 of 373: 91.0
+Image 188 of 373: 943.0
+Image 189 of 373: 79.0
+Image 190 of 373: 112.0
+Image 191 of 373: 120.0
+Image 192 of 373: 97.0
+Image 193 of 373: 865.0
+Image 194 of 373: 74.0
+Image 195 of 373: 201.0
+Image 196 of 373: 388.0
+Image 197 of 373: 514.0
+Image 198 of 373: 1481.0
+Image 199 of 373: 459.0
+Image 200 of 373: 431.0
+Image 201 of 373: 451.0
+Image 202 of 373: 520.0
+Image 203 of 373: 1388.0
+Image 204 of 373: 423.0
+Image 205 of 373: 429.0
+Image 206 of 373: 391.0
+Image 207 of 373: 474.0
+Image 208 of 373: 1253.0
+Image 209 of 373: 401.0
+Image 210 of 373: 499.0
+Image 211 of 373: 445.0
+Image 212 of 373: 478.0
+Image 213 of 373: 801.0
+Image 214 of 373: 384.0
+Image 215 of 373: 544.0
+Image 216 of 373: 440.0
+Image 217 of 373: 392.0
+Image 218 of 373: 1171.0
+Image 219 of 373: 401.0
+Image 220 of 373: 579.0
+Image 221 of 373: 409.0
+Image 222 of 373: 621.0
+Image 223 of 373: 973.0
+Image 224 of 373: 390.0
+Image 225 of 373: 563.0
+Image 226 of 373: 509.0
+Image 227 of 373: 523.0
+Image 228 of 373: 1216.0
+Image 229 of 373: 486.0
+Image 230 of 373: 741.0
+Image 231 of 373: 623.0
+Image 232 of 373: 564.0
+Image 233 of 373: 1397.0
+Image 234 of 373: 702.0
+Image 235 of 373: 637.0
+Image 236 of 373: 842.0
+Image 237 of 373: 1144.0
+Image 238 of 373: 1507.0
+Image 239 of 373: 5.0
+Image 240 of 373: 462.0
+Image 241 of 373: 443.0
+Image 242 of 373: 484.0
+Image 243 of 373: 1115.0
+Image 244 of 373: 388.0
+Image 245 of 373: 401.0
+Image 246 of 373: 461.0
+Image 247 of 373: 383.0
+Image 248 of 373: 1056.0
+Image 249 of 373: 397.0
+Image 250 of 373: 410.0
+Image 251 of 373: 379.0
+Image 252 of 373: 385.0
+Image 253 of 373: 1036.0
+Image 254 of 373: 362.0
+Image 255 of 373: 450.0
+Image 256 of 373: 379.0
+Image 257 of 373: 382.0
+Image 258 of 373: 981.0
+Image 259 of 373: 421.0
+Image 260 of 373: 383.0
+Image 261 of 373: 403.0
+Image 262 of 373: 382.0
+Image 263 of 373: 928.0
+Image 264 of 373: 401.0
+Image 265 of 373: 405.0
+Image 266 of 373: 391.0
+Image 267 of 373: 415.0
+Image 268 of 373: 837.0
+Image 269 of 373: 401.0
+Image 270 of 373: 343.0
+Image 271 of 373: 429.0
+Image 272 of 373: 399.0
+Image 273 of 373: 873.0
+Image 274 of 373: 366.0
+Image 275 of 373: 336.0
+Image 276 of 373: 356.0
+Image 277 of 373: 388.0
+Image 278 of 373: 855.0
+Image 279 of 373: 403.0
+Image 280 of 373: 402.0
+Image 281 of 373: 444.0
+Image 282 of 373: 417.0
+Image 283 of 373: 884.0
+Image 284 of 373: 396.0
+Image 285 of 373: 422.0
+Image 286 of 373: 398.0
+Image 287 of 373: 390.0
+Image 288 of 373: 848.0
+Image 289 of 373: 355.0
+Image 290 of 373: 406.0
+Image 291 of 373: 374.0
+Image 292 of 373: 433.0
+Image 293 of 373: 857.0
+Image 294 of 373: 418.0
+Image 295 of 373: 328.0
+Image 296 of 373: 421.0
+Image 297 of 373: 337.0
+Image 298 of 373: 825.0
+Image 299 of 373: 354.0
+Image 300 of 373: 436.0
+Image 301 of 373: 431.0
+Image 302 of 373: 343.0
+Image 303 of 373: 790.0
+Image 304 of 373: 290.0
+Image 305 of 373: 402.0
+Image 306 of 373: 385.0
+Image 307 of 373: 5.0
+Image 308 of 373: 3976.0
+Image 309 of 373: 1870.0
+Image 310 of 373: 1748.0
+Image 311 of 373: 1941.0
+Image 312 of 373: 1572.0
+Image 313 of 373: 3437.0
+Image 314 of 373: 1311.0
+Image 315 of 373: 1208.0
+Image 316 of 373: 942.0
+Image 317 of 373: 1351.0
+Image 318 of 373: 2542.0
+Image 319 of 373: 1122.0
+Image 320 of 373: 1013.0
+Image 321 of 373: 1230.0
+Image 322 of 373: 1043.0
+Image 323 of 373: 3198.0
+Image 324 of 373: 1091.0
+Image 325 of 373: 1126.0
+Image 326 of 373: 1244.0
+Image 327 of 373: 1256.0
+Image 328 of 373: 2778.0
+Image 329 of 373: 1312.0
+Image 330 of 373: 1440.0
+Image 331 of 373: 1469.0
+Image 332 of 373: 1952.0
+Image 333 of 373: 4413.0
+Image 334 of 373: 1664.0
+Image 335 of 373: 4.0
+Image 336 of 373: 264.0
+Image 337 of 373: 266.0
+Image 338 of 373: 820.0
+Image 339 of 373: 275.0
+Image 340 of 373: 251.0
+Image 341 of 373: 197.0
+Image 342 of 373: 182.0
+Image 343 of 373: 763.0
+Image 344 of 373: 191.0
+Image 345 of 373: 177.0
+Image 346 of 373: 172.0
+Image 347 of 373: 172.0
+Image 348 of 373: 753.0
+Image 349 of 373: 184.0
+Image 350 of 373: 175.0
+Image 351 of 373: 155.0
+Image 352 of 373: 131.0
+Image 353 of 373: 784.0
+Image 354 of 373: 83.0
+Image 355 of 373: 171.0
+Image 356 of 373: 163.0
+Image 357 of 373: 175.0
+Image 358 of 373: 813.0
+Image 359 of 373: 191.0
+Image 360 of 373: 234.0
+Image 361 of 373: 285.0
+Image 362 of 373: 290.0
+Image 363 of 373: 899.0
+Image 364 of 373: 291.0
+Image 365 of 373: 289.0
+Image 366 of 373: 272.0
+Image 367 of 373: 215.0
+Image 368 of 373: 898.0
+Image 369 of 373: 243.0
+Image 370 of 373: 309.0
+Image 371 of 373: 274.0
+Image 372 of 373: 290.0
+Writing mainFrame for Image 0
+Writing mainFrame for Image 36
+Writing mainFrame for Image 74
+Writing mainFrame for Image 106
+Writing mainFrame for Image 136
+Writing mainFrame for Image 238
+Writing mainFrame for Image 306
+Writing mainFrame for Image 334
+************  output\mainframes\0_0.5291244573082489.jpg  ************
+people - 0.99066937
+mammal - 0.9872774
+farm - 0.97987044
+livestock - 0.97867775
+cattle - 0.96762633
+farming - 0.9659383
+adult - 0.96140015
+two - 0.9518392
+man - 0.9416038
+cavalry - 0.92780095
+group - 0.9218552
+one - 0.91247404
+agriculture - 0.9072589
+animal - 0.88982975
+three - 0.8811395
+group together - 0.8660773
+child - 0.85499126
+recreation - 0.84634423
+bull - 0.8422773
+competition - 0.8417138
+************  output\mainframes\106_0.0016280752532561505.jpg  ************
+people - 0.9961105
+adult - 0.98750854
+man - 0.9760003
+portrait - 0.9724361
+one - 0.96257305
+child - 0.9445918
+woman - 0.89625
+family - 0.8880913
+sit - 0.8790703
+person - 0.87881476
+indoors - 0.8673941
+industry - 0.86583
+wear - 0.8505013
+two - 0.83267623
+sadness - 0.82479584
+boy - 0.81485236
+exert - 0.7744784
+lid - 0.7668139
+outdoors - 0.75288427
+despair - 0.7371649
+************  output\mainframes\136_7.23589001447178E-4.jpg  ************
+portrait - 0.98862076
+people - 0.9879987
+adult - 0.987851
+man - 0.9829296
+one - 0.9808794
+window - 0.9693706
+indoors - 0.963323
+urban - 0.9548931
+athlete - 0.9416606
+person - 0.930346
+guy - 0.85807204
+young - 0.84688085
+expression - 0.83898073
+building - 0.8341172
+fine-looking - 0.8235005
+business - 0.8104116
+looking - 0.8086227
+exert - 0.7961666
+boy - 0.79589343
+city - 0.79376173
+************  output\mainframes\238_9.044862518089725E-4.jpg  ************
+people - 0.9895416
+man - 0.98864996
+portrait - 0.9811203
+adult - 0.9772845
+one - 0.9763723
+indoors - 0.9421299
+wear - 0.8716477
+actor - 0.8100413
+looking - 0.8075737
+business - 0.79949343
+fine-looking - 0.7800065
+boy - 0.76863414
+pensive - 0.76375026
+sit - 0.7632563
+sadness - 0.7608424
+urban - 0.74754196
+sitting - 0.7443849
+recreation - 0.73522925
+serious - 0.7280493
+outfit - 0.72406423
+************  output\mainframes\306_9.044862518089725E-4.jpg  ************
+nature - 0.9830141
+wood - 0.96766585
+tree - 0.9571563
+animal - 0.95445573
+wildlife - 0.93497884
+tropical - 0.92709136
+park - 0.9170109
+outdoors - 0.91405845
+wild - 0.90814686
+no person - 0.89863384
+zoo - 0.8906418
+summer - 0.8809477
+portrait - 0.8801966
+jungle - 0.8684101
+head - 0.8573556
+exotic - 0.85254973
+travel - 0.8365524
+garden - 0.8342084
+color - 0.82450736
+leaf - 0.8221668
+************  output\mainframes\334_7.23589001447178E-4.jpg  ************
+portrait - 0.9852469
+people - 0.97496486
+adult - 0.97057843
+man - 0.9695034
+one - 0.96551734
+indoors - 0.9351839
+window - 0.87877893
+business - 0.87664276
+desktop - 0.8687177
+light - 0.8494859
+modern - 0.84506905
+urban - 0.83344084
+face - 0.799189
+guy - 0.79871696
+city - 0.7985071
+office - 0.7781189
+dark - 0.76725924
+actor - 0.75123525
+person - 0.73684895
+boy - 0.7198974
+************  output\mainframes\36_9.044862518089725E-4.jpg  ************
+people - 0.9950801
+portrait - 0.9884877
+adult - 0.9863838
+one - 0.981869
+man - 0.9746441
+offense - 0.93568516
+child - 0.9211445
+sit - 0.89940417
+boy - 0.89285964
+wear - 0.883401
+indoors - 0.8516724
+woman - 0.8468585
+person - 0.8398783
+family - 0.83576286
+two - 0.8258809
+young - 0.82186055
+outdoors - 0.8155868
+room - 0.8139014
+urban - 0.8080018
+jail - 0.79916275
+************  output\mainframes\74_7.23589001447178E-4.jpg  ************
+people - 0.99656385
+portrait - 0.9907614
+adult - 0.98618484
+man - 0.9845301
+one - 0.9703114
+business - 0.9257691
+urban - 0.8900188
+street - 0.8885522
+indoors - 0.86693954
+commerce - 0.86628383
+wear - 0.84771335
+city - 0.8376491
+outdoors - 0.790679
+two - 0.7685235
+daylight - 0.74303305
+woman - 0.74007344
+offense - 0.7221161
+facial expression - 0.7156247
+window - 0.7112168
+industry - 0.66991335
+There were 80 unique annotations found
+Displaying the top 10 most frequent words
+people: 6.930929005146027
+adult: 6.857191264629364
+man: 6.817861258983612
+portrait: 6.786869704723358
+one: 6.749996542930603
+indoors: 5.426642835140228
+urban: 4.233896553516388
+boy: 3.9921369552612305
+wear: 3.4532633423805237
+business: 3.412316858768463
+This video features the following elements: people, adult, man, portrait, one, indoors, urban, boy, wear, business
+
+Process finished with exit code 0
