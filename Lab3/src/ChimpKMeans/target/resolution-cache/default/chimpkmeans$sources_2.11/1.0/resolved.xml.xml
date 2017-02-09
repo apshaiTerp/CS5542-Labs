@@ -4,7 +4,7 @@
 		module="chimpkmeans$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170204164334"
+		publication="20170208214544"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to C:\Users\ac010168\.ivy2\cache
 [debug] :: resolving dependencies :: default#chimpkmeans$sbt_2.10;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -1774,9 +1775,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 500ms :: artifacts dl 31ms
+[debug] :: resolution report :: resolve 1344ms :: artifacts dl 31ms
 [debug] 	report for default#chimpkmeans$sbt_2.10;1.0 default produced in C:\Users\ac010168\workspaces\umkc\ChimpKMeans\target\resolution-cache\reports\default-chimpkmeans$sbt_2.10-default.xml
-[debug] 	resolve done (500ms resolve - 31ms download)
+[debug] 	resolve done (1344ms resolve - 31ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#chimpkmeans$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2470,6 +2471,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 172ms :: artifacts dl 31ms
+[debug] :: resolution report :: resolve 172ms :: artifacts dl 47ms
 [debug] 	report for default#chimpkmeans$sources_2.10;1.0 default produced in C:\Users\ac010168\workspaces\umkc\ChimpKMeans\target\resolution-cache\reports\default-chimpkmeans$sources_2.10-default.xml
-[debug] 	resolve done (172ms resolve - 31ms download)
+[debug] 	resolve done (172ms resolve - 47ms download)

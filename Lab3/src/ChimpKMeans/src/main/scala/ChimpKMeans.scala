@@ -22,7 +22,7 @@ object ChimpKMeans {
 
     //Let's assume 4 major social groups, so we'll try to generate 4 clusters
     // Cluster the data into two classes using KMeans
-    val numClusters = 6
+    val numClusters = 4
     val numIterations = 50
     val clusters = KMeans.train(parsedData, numClusters, numIterations)
 
