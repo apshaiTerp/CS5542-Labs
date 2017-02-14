@@ -1,0 +1,92 @@
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Austria/austria23.jpg
+Predicting test image : Austria as Austria
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Austria/austria24.jpg
+Predicting test image : Austria as Austria
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Canada/canada1.jpg
+Predicting test image : Canada as Canada
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Canada/canada20.jpg
+Predicting test image : Canada as Canada
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/France/france20.jpg
+Predicting test image : France as Scotland
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/France/france21.jpg
+Predicting test image : France as France
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Germany/germany10.jpg
+Predicting test image : Germany as UK
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Germany/germany12.jpg
+Predicting test image : Germany as Austria
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/India/india13.jpg
+Predicting test image : India as Canada
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/India/india20.jpg
+Predicting test image : India as India
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/India/india4.jpg
+Predicting test image : India as UK
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Japan/japan16.jpg
+Predicting test image : Japan as Mexico
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Japan/japan18.jpg
+Predicting test image : Japan as France
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Japan/japan9.jpg
+Predicting test image : Japan as Japan
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Mexico/mexico16.jpg
+Predicting test image : Mexico as Mexico
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Mexico/mexico25.jpg
+Predicting test image : Mexico as Austria
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Mexico/mexico9.jpg
+Predicting test image : Mexico as Japan
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Scotland/scotland11.jpg
+Predicting test image : Scotland as Scotland
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Scotland/scotland2.jpg
+Predicting test image : Scotland as France
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/Scotland/scotland24.jpg
+Predicting test image : Scotland as Scotland
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/UK/uk12.jpg
+Predicting test image : UK as UK
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/UK/uk15.jpg
+Predicting test image : UK as UK
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/UK/uk2.jpg
+Predicting test image : UK as UK
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/United States/us16.jpg
+Predicting test image : United States as United States
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/United States/us8.jpg
+Predicting test image : United States as Japan
+file:/C:/Users/ac010168/workspaces/umkc/Lab4Images/data/testflags/United States/us9.jpg
+Predicting test image : United States as United States
+
+(9.0,9)
+(5.0,9)
+(9.0,9)
+(8.0,8)
+(8.0,8)
+(8.0,8)
+(7.0,7)
+(2.0,7)
+(7.0,7)
+(5.0,6)
+(0.0,6)
+(6.0,6)
+(5.0,5)
+(2.0,5)
+(6.0,5)
+(8.0,4)
+(4.0,4)
+(1.0,4)
+(0.0,3)
+(8.0,3)
+(2.0,2)
+(7.0,2)
+(1.0,1)
+(1.0,1)
+(0.0,0)
+(0.0,0)
+0.5769230769230769
+ |=================== Confusion matrix ==========================
+2.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  
+0.0  2.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  
+0.0  0.0  1.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  
+1.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  1.0  0.0  
+0.0  1.0  0.0  0.0  1.0  0.0  0.0  0.0  1.0  0.0  
+0.0  0.0  1.0  0.0  0.0  1.0  1.0  0.0  0.0  0.0  
+1.0  0.0  0.0  0.0  0.0  1.0  1.0  0.0  0.0  0.0  
+0.0  0.0  1.0  0.0  0.0  0.0  0.0  2.0  0.0  0.0  
+0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  3.0  0.0  
+0.0  0.0  0.0  0.0  0.0  1.0  0.0  0.0  0.0  2.0  
+0.5769230769230769
