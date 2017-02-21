@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Lab5 Scala Query Site</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-dialog.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <h1 align="center" id="name-header">Lab5 Scala Query Site</h1>
+        <h4 align="center" id="desc-header">Image Classification Task Among Qualifiers - My Gameroom</h4>
+    </div>
+
+    <div class="container">
+        <div align="center" id="vrview"></div>
+    </div>
+
+    <div class="container">
+        <h5 align="center" id="sub-header">The images shown below are screencaps taken from the VR viewer shown above for classification</h5>
+
+        <div class="row">
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_8622724.jpg" alt="DC Comics Poster" id="dcImage">
+                <div class="caption">
+                    <p>A DC Comics Poster (dc)</p>
+                    <button type="button" class="btn btn-default" id="dcButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_12445232.jpg" alt="Lord of the Rings Posters" id="lotrImage">
+                <div class="caption">
+                    <p>Lord of the Rings Posters (lotr)</p>
+                    <button type="button" class="btn btn-default" id="lotrButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_23590159.jpg" alt="Doctor Who Poster" id="whoImage">
+                <div class="caption">
+                    <p>A Doctor Who Poster (who)</p>
+                    <button type="button" class="btn btn-default" id="whoButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_30363079.jpg" alt="Star Wars Posters" id="swImage">
+                <div class="caption">
+                    <p>Star Wars Posters (starwars)</p>
+                    <button type="button" class="btn btn-default" id="swButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_31595556.jpg" alt="Game Shelves" id="shelfImage">
+                <div class="caption">
+                    <p>Shelves full of Board Games (shelf)</p>
+                    <button type="button" class="btn btn-default" id="shelfButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_42251268.jpg" alt="Prop Weapons" id="propImage">
+                <div class="caption">
+                    <p>Prop Weapons (weapon)</p>
+                    <button type="button" class="btn btn-default" id="weaponButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_84826052.jpg" alt="Firefly Poster" id="fireflyImage">
+                <div class="caption">
+                    <p>A Firefly Poster (firefly)</p>
+                    <button type="button" class="btn btn-default" id="fireflyButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_87110034.jpg" alt="Bookcases" id="bookcaseImage">
+                <div class="caption">
+                    <p>A DC Comics Poster (bookcase)</p>
+                    <button type="button" class="btn btn-default" id="bookcaseButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class = "col-sm-6 col-md-4">
+                <img src="img/vrcap_95680175.jpg" alt="Game Table" id="tableImage">
+                <div class="caption">
+                    <p>My Game Table (table)</p>
+                    <button type="button" class="btn btn-default" id="tableButton">Classify</button>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr>
+        <footer>
+            <p>&copy;2017 Lab5 Scala Query Site - A Project developed for UMKC Class CS 5542</p>
+        </footer>
+    </div> <!-- /container -->
+
+    <script src="http://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-dialog.js"></script>
+
+    <script type='text/javascript'>
+
+        window.addEventListener('load', onVrViewLoad)
+        function onVrViewLoad() {
+            var vrView = new VRView.Player('#vrview', {
+                image: 'https://raw.githubusercontent.com/billjcapps/VRScavengerHunt/dev/Source/TestVR/app/src/main/assets/gameroom.jpg',
+                is_stereo: true,
+                width: 1000,
+                height: 400
+            });
+        }
+
+        function showModalDialog(titleText, messageText) {
+            BootstrapDialog.show({
+                title: titleText,
+                message: messageText,
+                type: "type-success",
+                buttons: [{
+                    id: 'btn-ok',
+                    icon: 'glyphicon glyphicon-check',
+                    label: 'OK',
+                    cssClass: 'btn-primary',
+                    autospin: false,
+                    action: function(dialogRef){
+                        dialogRef.close();
+                    }
+                }]
+            });
+        };
+
+        // sorce: http://stackoverflow.com/a/22172860
+        function getBase64Image(img) {
+            var canvas = document.createElement("canvas");
+            canvas.width = img.width;
+            canvas.height = img.height;
+            var ctx = canvas.getContext("2d");
+            ctx.drawImage(img, 0, 0);
+            var dataURL = canvas.toDataURL("image/png");
+            return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+        }
+
+        function classifyImage(imageName) {
+            var tempImage = document.getElementById(imageName);
+            console.log(tempImage.getAttribute('src'));
+            var base64    = getBase64Image(tempImage);
+
+            console.log(base64);
+
+            $.ajax({
+                type: "POST",
+                url:  "http://localhost:8080/get_custom",
+                data: base64,
+                success: function(result) {
+                    console.log("It worked!");
+                    console.log(result);
+
+                    result = result.replace("dc", "DC Comics");
+                    result = result.replace("lotr", "Lord of the Rings");
+                    result = result.replace("firefly", "Firefly");
+                    result = result.replace("starwars", "Star Wars");
+                    result = result.replace("bookcase", "Bookcase");
+                    result = result.replace("shelf", "Game Shelf");
+                    result = result.replace("table", "Game Table");
+                    result = result.replace("weapon", "Prop Weapon");
+                    result = result.replace("who", "Doctor Who");
+
+                    showModalDialog("Classification Complete!", result);
+                }
+            });
+        }
+
+        $('#dcButton').click(function() {
+            console.log("Clicked the dcButton");
+            classifyImage("dcImage");
+        });
+        $('#lotrButton').click(function() {
+            console.log("Clicked the lotrButton");
+            classifyImage("lotrImage");
+        });
+        $('#whoButton').click(function() {
+            console.log("Clicked the whoButton");
+            classifyImage("whoImage");
+        });
+        $('#swButton').click(function() {
+            console.log("Clicked the swButton");
+            classifyImage("swImage");
+        });
+        $('#shelfButton').click(function() {
+            console.log("Clicked the shelfButton");
+            classifyImage("shelfImage");
+        });
+        $('#weaponButton').click(function() {
+            console.log("Clicked the weaponButton");
+            classifyImage("propImage");
+        });
+        $('#fireflyButton').click(function() {
+            console.log("Clicked the fireflyButton");
+            classifyImage("fireflyImage");
+        });
+        $('#bookcaseButton').click(function() {
+            console.log("Clicked the bookcaseButton");
+            classifyImage("bookcaseImage");
+        });
+        $('#tableButton').click(function() {
+            console.log("Clicked the tableButton");
+            classifyImage("tableImage");
+        });
+    </script>
+
+</body>
+</html>
