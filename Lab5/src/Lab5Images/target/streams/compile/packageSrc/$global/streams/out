@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging C:\Users\ac010168\workspaces\umkc\Lab5Images\target\scala-2.11\lab5images_2.11-1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	ServerSupport.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\ac010168\workspaces\umkc\Lab5Images\src\main\scala\ServerSupport.scala[0m
+[0m[[0mdebug[0m] [0m	Lab5Images.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\ac010168\workspaces\umkc\Lab5Images\src\main\scala\Lab5Images.scala[0m
+[0m[[0mdebug[0m] [0m	ImageUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\ac010168\workspaces\umkc\Lab5Images\src\main\scala\ImageUtils.scala[0m
+[0m[[0mdebug[0m] [0m	ModelEvaluation.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\ac010168\workspaces\umkc\Lab5Images\src\main\scala\ModelEvaluation.scala[0m
+[0m[[0mdebug[0m] [0m	Lab5Server.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\ac010168\workspaces\umkc\Lab5Images\src\main\scala\Lab5Server.scala[0m
+[0m[[0mdebug[0m] [0m	Lab5Plan.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\ac010168\workspaces\umkc\Lab5Images\src\main\scala\Lab5Plan.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
