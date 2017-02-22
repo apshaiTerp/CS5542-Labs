@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20170221150939"/>
+		date="20170222104545"/>
 	<dependencies>
 		<module organisation="com.typesafe.sbt" name="sbt-native-packager">
 			<revision name="1.2.0-M8" status="release" pubdate="20170125223808" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="52">

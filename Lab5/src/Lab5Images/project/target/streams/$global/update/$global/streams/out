@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/ac010168/workspaces/umkc/Lab5Images/project/}lab5images-build...
+[info] Updating {file:/C:/Users/ac010168/workspaces/umkc/CS5542-Labs/Lab5/src/Lab5Images/project/}lab5images-build...
 [debug] :: resolving dependencies :: default#lab5images-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -10,20 +10,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving com.typesafe.sbt#sbt-native-packager;1.2.0-M8 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.2.0-M8 {compile=[default(compile)]}
-[info] Resolving com.typesafe.sbt#sbt-native-packager;1.2.0-M8 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.2.0-M8 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.typesafe.sbt#sbt-native-packager;1.2.0-M8
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: found md file for com.typesafe.sbt#sbt-native-packager;1.2.0-M8
-[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml (1.2.0-M8)
-[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.2.0-M8!ivy.xml(ivy.original) (1178ms)
-[debug] 	found com.typesafe.sbt#sbt-native-packager;1.2.0-M8 in sbt-plugin-releases
+[debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;1.2.0-M8
+[debug] 	found com.typesafe.sbt#sbt-native-packager;1.2.0-M8 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M8->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -58,58 +46,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.apache.ant#ant;1.9.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant;1.9.6 {compile=[default(compile)]}
-[info] Resolving org.apache.ant#ant;1.9.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.ant#ant;1.9.6 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.ant#ant;1.9.6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.ant#ant;1.9.6
-[debug] 		tried C:\Users\ac010168\.ivy2\local\org.apache.ant\ant\1.9.6\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.apache.ant#ant;1.9.6
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom
-[debug] 	public: found md file for org.apache.ant#ant;1.9.6
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom (1.9.6)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.pom(pom.original) (149ms)
-[info] Resolving org.apache.ant#ant-parent;1.9.6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}
-[info] Resolving org.apache.ant#ant-parent;1.9.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.ant#ant-parent;1.9.6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.ant#ant-parent;1.9.6
-[debug] 		tried C:\Users\ac010168\.ivy2\local\org.apache.ant\ant-parent\1.9.6\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.apache.ant#ant-parent;1.9.6
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom
-[debug] 	public: found md file for org.apache.ant#ant-parent;1.9.6
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom (1.9.6)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant-parent;1.9.6!ant-parent.pom(pom.original) (146ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] 		tried C:\Users\ac010168\.ivy2\local\org.apache.ant\ant-parent\1.9.6\jars\ant-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] 		tried C:\Users\ac010168\.ivy2\local\org.apache.ant\ant\1.9.6\jars\ant.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[debug] 	found org.apache.ant#ant;1.9.6 in public
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.9.6
+[debug] 	found org.apache.ant#ant;1.9.6 in sbt-chain
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M8->org.apache.ant#ant;1.9.6 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.2.0-M8->org.apache.ant#ant;1.9.6 [compile->compile]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->master(compile)]
@@ -119,34 +57,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.apache.ant#ant-launcher;1.9.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-launcher;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.ant#ant-launcher;1.9.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.ant#ant-launcher;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.ant#ant-launcher;1.9.6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.ant#ant-launcher;1.9.6
-[debug] 		tried C:\Users\ac010168\.ivy2\local\org.apache.ant\ant-launcher\1.9.6\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.apache.ant#ant-launcher;1.9.6
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom
-[debug] 	public: found md file for org.apache.ant#ant-launcher;1.9.6
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom (1.9.6)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.pom(pom.original) (156ms)
-[info] Resolving org.apache.ant#ant-parent;1.9.6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}
-[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-parent;1.9.6
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] 		tried C:\Users\ac010168\.ivy2\local\org.apache.ant\ant-launcher\1.9.6\jars\ant-launcher.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[debug] 	found org.apache.ant#ant-launcher;1.9.6 in public
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.9.6
+[debug] 	found org.apache.ant#ant-launcher;1.9.6 in sbt-chain
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->compile]
@@ -6488,26 +6400,11 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/jars/sbt-native-packager.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/jars/sbt-native-packager.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/jars/sbt-native-packager.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/jars/sbt-native-packager.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.2.0-M8/jars/sbt-native-packager.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.2.0-M8!sbt-native-packager.jar (2898ms)
+[debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-native-packager;1.2.0-M8!sbt-native-packager.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[info] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.jar (391ms)
+[debug] 	[NOT REQUIRED] org.apache.ant#ant;1.9.6!ant.jar
 [debug] 	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[info] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar (130ms)
+[debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.13!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.13!main.jar
@@ -6562,19 +6459,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 7513ms :: artifacts dl 3528ms
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT compile produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-compile.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT runtime produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-runtime.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT test produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-test.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT provided produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-provided.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT optional produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-optional.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT compile-internal produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-compile-internal.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-runtime-internal.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT test-internal produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-test-internal.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT plugin produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-plugin.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT sources produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-sources.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT docs produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-docs.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT pom produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-pom.xml
-[debug] 	report for default#lab5images-build;0.1-SNAPSHOT scala-tool produced in C:\Users\ac010168\workspaces\umkc\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-scala-tool.xml
-[debug] 	resolve done (7513ms resolve - 3528ms download)
+[debug] :: resolution report :: resolve 1262ms :: artifacts dl 55ms
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT compile produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-compile.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT runtime produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-runtime.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT test produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-test.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT provided produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-provided.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT optional produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-optional.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT compile-internal produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-compile-internal.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-runtime-internal.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT test-internal produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-test-internal.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT plugin produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-plugin.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT sources produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-sources.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT docs produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-docs.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT pom produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-pom.xml
+[debug] 	report for default#lab5images-build;0.1-SNAPSHOT scala-tool produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\project\target\resolution-cache\reports\default-lab5images-build-scala-tool.xml
+[debug] 	resolve done (1262ms resolve - 55ms download)
 [info] Done updating.

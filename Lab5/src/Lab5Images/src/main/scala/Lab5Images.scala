@@ -154,6 +154,11 @@ object Lab5Images {
   }
 
   def createHistogram(sc: SparkContext, images: RDD[(String, String)]): Unit = {
+    if (Files.exists(Paths.get(HISTOGRAM_PATH))) {
+      println(s"${HISTOGRAM_PATH} exists, skipping clusters formation..")
+      return
+    }
+
     val sameModel = KMeansModel.load(sc, KMEANS_PATH)
 
     val kMeansCenters = sc.broadcast(sameModel.clusterCenters)
@@ -182,6 +187,11 @@ object Lab5Images {
   }
 
   def generateRandomForestModel(sc: SparkContext): Unit = {
+    if (Files.exists(Paths.get(RANDOM_FOREST_PATH))) {
+      println(s"${RANDOM_FOREST_PATH} exists, skipping clusters formation..")
+      return
+    }
+
     val data = sc.textFile(HISTOGRAM_PATH)
     val parsedData = data.map { line =>
       val parts = line.split(',')

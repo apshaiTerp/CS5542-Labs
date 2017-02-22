@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170221150941"/>
+		date="20170222104546"/>
 	<dependencies>
 		<module organisation="org.bytedeco" name="javacv">
 			<revision name="0.11" status="release" pubdate="20150404084331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacv/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="165">
@@ -1007,7 +1007,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-recipes">
 			<revision name="2.4.0" status="release" pubdate="20140205170911" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="120">
-				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\ac010168\workspaces\umkc\Lab5Images/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7690" time="0" location="C:\Users\ac010168\.ivy2\cache\org.apache.curator\curator-recipes\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.pom"/>
 				<caller organisation="default" name="lab5images$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
@@ -1019,7 +1019,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-framework">
 			<revision name="2.4.0" status="release" pubdate="20140205170848" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="117">
-				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\ac010168\workspaces\umkc\Lab5Images/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7537" time="0" location="C:\Users\ac010168\.ivy2\cache\org.apache.curator\curator-framework\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.pom"/>
 				<caller organisation="default" name="lab5images$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
@@ -1031,7 +1031,7 @@
 		</module>
 		<module organisation="org.apache.curator" name="curator-client">
 			<revision name="2.4.0" status="release" pubdate="20140205170826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
-				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\ac010168\workspaces\umkc\Lab5Images/LICENSE"/>
+				<license name="The Apache Software License, Version 2.0" url="file://C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images/LICENSE"/>
 				<metadata-artifact status="no" details="" size="7585" time="0" location="C:\Users\ac010168\.ivy2\cache\org.apache.curator\curator-client\ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.pom"/>
 				<caller organisation="default" name="lab5images$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
