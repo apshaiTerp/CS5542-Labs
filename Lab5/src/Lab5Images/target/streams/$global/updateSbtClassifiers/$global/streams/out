@@ -6,6 +6,7 @@
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'default'
+[debug] no default cache defined: set to C:\Users\ac010168\.ivy2\cache
 [debug] == resolving dependencies for default#lab5images$sbt_2.10;1.0 [default]
 [debug] == resolving dependencies default#lab5images$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.13 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.13 ...
@@ -1854,9 +1855,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 530ms :: artifacts dl 32ms
+[debug] :: resolution report :: resolve 790ms :: artifacts dl 47ms
 [debug] 	report for default#lab5images$sbt_2.10;1.0 default produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\target\resolution-cache\reports\default-lab5images$sbt_2.10-default.xml
-[debug] 	resolve done (530ms resolve - 32ms download)
+[debug] 	resolve done (790ms resolve - 47ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#lab5images$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2649,6 +2650,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 155ms :: artifacts dl 35ms
+[debug] :: resolution report :: resolve 218ms :: artifacts dl 32ms
 [debug] 	report for default#lab5images$sources_2.10;1.0 default produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab5\src\Lab5Images\target\resolution-cache\reports\default-lab5images$sources_2.10-default.xml
-[debug] 	resolve done (155ms resolve - 35ms download)
+[debug] 	resolve done (218ms resolve - 32ms download)

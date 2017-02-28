@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="plugin"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170222104546"/>
+		date="20170225120106"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

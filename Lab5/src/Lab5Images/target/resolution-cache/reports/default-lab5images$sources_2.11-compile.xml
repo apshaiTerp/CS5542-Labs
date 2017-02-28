@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170222104546"/>
+		date="20170225120106"/>
 	<dependencies>
 		<module organisation="org.bytedeco" name="javacv">
 			<revision name="0.11" status="release" pubdate="20150404084331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bytedeco.org/javacv/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="165">

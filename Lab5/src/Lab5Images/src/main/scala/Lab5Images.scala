@@ -35,12 +35,11 @@ object Lab5Images {
 
     System.setProperty("hadoop.home.dir","C:\\Users\\ac010168\\workspaces\\umkc\\winutils");
 
-    val conf = new SparkConf()
-      .setAppName(s"IPApp")
+    val sparkConf = new SparkConf()
+      .setAppName("Lab5Images")
       .setMaster("local[*]")
       .set("spark.executor.memory", "6g")
       .set("spark.driver.memory", "6g")
-    val sparkConf = new SparkConf().setAppName("Lab5Images").setMaster("local[*]")
     val sc=new SparkContext(sparkConf)
 
     //Load our images

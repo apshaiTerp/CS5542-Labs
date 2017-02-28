@@ -4,7 +4,7 @@
 		module="lab5images$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170222104546"
+		publication="20170225120106"
 	/>
 	<configurations>
 		<conf name="universal" visibility="public" description=""/>
