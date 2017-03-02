@@ -1,0 +1,13 @@
+Random Forest Results:
+Accuracy:0.3333333333333333
+Confusion Matrix:
+0.0  1.0  0.0  
+0.0  0.0  1.0  
+0.0  0.0  1.0  
+
+Decision Tree Results:
+Accuracy:0.6666666666666666
+Confusion Matrix:
+0.0  1.0  0.0  
+0.0  1.0  0.0  
+0.0  0.0  1.0  
