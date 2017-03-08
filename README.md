@@ -16,3 +16,5 @@ Lab 5: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab5](https://github.com/
 
 Lab 6: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab6](https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab6)
 
+Lab 7: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab7](https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab7)
+

@@ -4,7 +4,7 @@
 		module="imageclassification$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170301150313"
+		publication="20170302000248"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

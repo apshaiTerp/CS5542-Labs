@@ -1,0 +1,2 @@
+https://shankarmsy.github.io/stories/linear-reg-sklearn.html
+http://scikit-learn.org/stable/index.html

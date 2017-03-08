@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#imageclassification_2.11;1.0 [compile]
 [debug] == resolving dependencies default#imageclassification_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@597cc8e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4adff5a9
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -20476,7 +20476,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 5212ms :: artifacts dl 157ms
+[debug] :: resolution report :: resolve 3320ms :: artifacts dl 109ms
 [debug] 	report for default#imageclassification_2.11;1.0 compile produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab6\src\ImageClassification\target\resolution-cache\reports\default-imageclassification_2.11-compile.xml
 [debug] 	report for default#imageclassification_2.11;1.0 runtime produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab6\src\ImageClassification\target\resolution-cache\reports\default-imageclassification_2.11-runtime.xml
 [debug] 	report for default#imageclassification_2.11;1.0 test produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab6\src\ImageClassification\target\resolution-cache\reports\default-imageclassification_2.11-test.xml
@@ -20490,5 +20490,5 @@
 [debug] 	report for default#imageclassification_2.11;1.0 docs produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab6\src\ImageClassification\target\resolution-cache\reports\default-imageclassification_2.11-docs.xml
 [debug] 	report for default#imageclassification_2.11;1.0 pom produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab6\src\ImageClassification\target\resolution-cache\reports\default-imageclassification_2.11-pom.xml
 [debug] 	report for default#imageclassification_2.11;1.0 scala-tool produced in C:\Users\ac010168\workspaces\umkc\CS5542-Labs\Lab6\src\ImageClassification\target\resolution-cache\reports\default-imageclassification_2.11-scala-tool.xml
-[debug] 	resolve done (5212ms resolve - 157ms download)
+[debug] 	resolve done (3320ms resolve - 109ms download)
 [info] Done updating.
