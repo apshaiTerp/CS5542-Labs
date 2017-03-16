@@ -18,3 +18,8 @@ Lab 6: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab6](https://github.com/
 
 Lab 7: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab7](https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab7)
 
+<<<<<<< HEAD
+=======
+Lab 8: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab8](https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab8)
+
+>>>>>>> Lab8

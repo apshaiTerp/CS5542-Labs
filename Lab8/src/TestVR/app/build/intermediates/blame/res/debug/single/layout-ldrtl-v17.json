@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\back_button.xml",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-common\\1.20.0\\res\\layout-ldrtl-v17\\back_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\settings_button.xml",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-common\\1.20.0\\res\\layout-ldrtl-v17\\settings_button.xml"
+    }
+]

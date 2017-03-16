@@ -1,0 +1,7 @@
+#Fri Feb 17 15:15:27 CST 2017
+base.0=C\:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ab0b637520fe52e1a64d0b98d8821ec49e944913
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b7af651545fa26dc3a4dcc55e35e830e28d2574e\\classes.dex
+base.1=C\:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b7af651545fa26dc3a4dcc55e35e830e28d2574e
+file.0=C\:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ab0b637520fe52e1a64d0b98d8821ec49e944913\\classes.dex

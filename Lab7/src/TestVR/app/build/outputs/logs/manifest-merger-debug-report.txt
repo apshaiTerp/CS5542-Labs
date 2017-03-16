@@ -1,0 +1,126 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:6:5-74
+MERGED from [com.google.vr:sdk-audio:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-audio\1.20.0\AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-panowidget:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-panowidget\1.20.0\AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-commonwidget:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-commonwidget\1.20.0\AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-controller:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-controller\1.20.0\AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-base:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\AndroidManifest.xml:5:5-73
+MERGED from [com.google.vr:sdk-common:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-common\1.20.0\AndroidManifest.xml:3:5-73
+	android:targetSdkVersion
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:6:42-71
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:6:15-41
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:7:5-78
+MERGED from [com.google.vr:sdk-base:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\AndroidManifest.xml:6:5-77
+	android:glEsVersion
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:7:19-51
+	android:required
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:7:52-75
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:10:5-97
+	android:required
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:10:72-95
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:10:19-71
+uses-feature#android.hardware.sensor.gyroscope
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:11:5-93
+	android:required
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:11:68-91
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:11:19-67
+uses-feature#android.software.vr.mode
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:14:5-85
+MERGED from [com.google.vr:sdk-base:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\AndroidManifest.xml:13:5-85
+	android:required
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:14:59-83
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:14:19-58
+uses-feature#android.hardware.vr.high_performance
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:16:5-97
+MERGED from [com.google.vr:sdk-base:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\AndroidManifest.xml:15:5-97
+	android:required
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:16:71-95
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:16:19-70
+application
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:18:5-37:19
+	android:label
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:21:9-41
+	android:supportsRtl
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:22:9-35
+	android:allowBackup
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:20:9-43
+	android:theme
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:23:9-47
+activity#com.ac.vr.testvr.MainVRActivity
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:24:9-36:20
+	android:screenOrientation
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:26:13-50
+	android:enableVrMode
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:28:13-65
+	android:label
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:25:13-45
+	android:resizeableActivity
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:27:13-74
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:24:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+com.google.intent.category.CARDBOARD
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:33:27-74
+category#com.google.intent.category.CARDBOARD
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:34:27-78
+uses-permission#android.permission.NFC
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:39:5-62
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:39:22-59
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:40:5-66
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:40:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:41:5-67
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:41:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:42:5-80
+MERGED from [com.google.vr:sdk-base:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:42:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:43:5-81
+MERGED from [com.google.vr:sdk-base:1.20.0] C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\ac010168\workspaces\umkc\TestVR\app\src\main\AndroidManifest.xml:43:22-78
