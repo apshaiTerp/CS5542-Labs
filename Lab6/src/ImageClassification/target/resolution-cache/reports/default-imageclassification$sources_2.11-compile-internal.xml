@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170302000248"/>
+		date="20170314181112"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="2.0.0" status="release" pubdate="20160719181641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="114">
@@ -1144,11 +1144,11 @@
 				<metadata-artifact status="no" details="" size="26222" time="0" location="C:\Users\ac010168\.ivy2\cache\org.glassfish.hk2.external\javax.inject\ivy-2.4.0-b34.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.pom"/>
 				<caller organisation="default" name="imageclassification$sources_2.11" conf="compile-internal, compile, provided, optional" rev="2.4.0-b34" rev-constraint-default="2.4.0-b34" rev-constraint-dynamic="2.4.0-b34" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="javax.inject" type="jar" ext="jar" status="no" details="" size="5950" time="0" location="C:\Users\ac010168\.ivy2\cache\org.glassfish.hk2.external\javax.inject\jars\javax.inject-2.4.0-b34.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar"/>
-					</artifact>
 					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13157" time="0" location="C:\Users\ac010168\.ivy2\cache\org.glassfish.hk2.external\javax.inject\srcs\javax.inject-2.4.0-b34-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34-sources.jar"/>
+					</artifact>
+					<artifact name="javax.inject" type="jar" ext="jar" status="no" details="" size="5950" time="0" location="C:\Users\ac010168\.ivy2\cache\org.glassfish.hk2.external\javax.inject\jars\javax.inject-2.4.0-b34.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170302000248"/>
+		date="20170314181112"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-mllib_2.11">
 			<revision name="2.0.0" status="release" pubdate="20160719181641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="114">
@@ -887,11 +887,11 @@
 				<metadata-artifact status="no" details="" size="5424" time="0" location="C:\Users\ac010168\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.pom"/>
 				<caller organisation="default" name="imageclassification$sources_2.11" conf="test, compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="metrics-graphite" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10675" time="0" location="C:\Users\ac010168\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\srcs\metrics-graphite-3.1.2-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2-sources.jar"/>
-					</artifact>
 					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="C:\Users\ac010168\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\jars\metrics-graphite-3.1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
+					</artifact>
+					<artifact name="metrics-graphite" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10675" time="0" location="C:\Users\ac010168\.ivy2\cache\io.dropwizard.metrics\metrics-graphite\srcs\metrics-graphite-3.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

@@ -45,6 +45,9 @@ object ImageClassification_DT {
     val model = DecisionTree.trainClassifier(trainingData, numClasses, categoricalFeaturesInfo,
       impurity, maxDepth, maxBins)
 
+    //DEBUG
+    println ("My Model Class: " + model.getClass)
+
     val classify1 = testData1.map { line =>
       val prediction = model.predict(line.features)
       (line.label, prediction)
@@ -130,7 +133,8 @@ object ImageClassification_DT {
     }
 
     val prediction1 = classify1.groupBy(_._1).map(f => {
-      var fuzzy_Pred = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+      var fuzzy_Pred = Array.fill(13){0}
+
       f._2.foreach(ff => {
         fuzzy_Pred(ff._2.toInt) += 1
       })
