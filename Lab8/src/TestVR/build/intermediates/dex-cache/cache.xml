@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-commonwidget\1.20.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4d5c35a22b8e4563afeb030eb16f137717503d1">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.vr-sdk-commonwidget-1.20.0_5c9446eb3d52d30a65a7e2466c86a989552bd543\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-controller\1.20.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fcca385bbf6776d1f986911455653982a74717b">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.vr-sdk-controller-1.20.0_f91e6c6f25e2cd499de55fbf25ebc2cb55352cad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="727ef691a6777ea57b9220d2e9d97548597d4877">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b7af651545fa26dc3a4dcc55e35e830e28d2574e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-panowidget\1.20.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="599391252c9619b99dbc5cea5685da204a07f03c">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.vr-sdk-panowidget-1.20.0_ac16446a14b69c6fcceacb14b636ab366b5b24ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-base\1.20.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4f6770ee13216c2d96bb83bbd1c99a3110f8a0ab">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.vr-sdk-base-1.20.0_3e9d12c5918a7ed9338f14ce5e2c3fccde56d1a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\.gradle\caches\modules-2\files-2.1\com.google.protobuf.nano\protobuf-javanano\3.1.0\5110f05deac8f15244897b3f70e9ce413468771d\protobuf-javanano-3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5110f05deac8f15244897b3f70e9ce413468771d">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\protobuf-javanano-3.1.0_e3e20a04738095ed831a684931620cfb492ea36e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-audio\1.20.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d8524a9272bddeed0a2f9e1603e8ce11925e7c40">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.vr-sdk-audio-1.20.0_61681d1f455bbeb50dfb39b882fa29a3c84363f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\exploded-aar\com.google.vr\sdk-common\1.20.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67403bd58f399f39aa47e5e186d4f94c0e1322a2">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.vr-sdk-common-1.20.0_422363f012a570f9f679fbadd70fcd4eea9f8566\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa04bd1bb88f4edd178320d80dab1951853e72c0">
+        <dex dex="C:\Users\ac010168\workspaces\umkc\TestVR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ab0b637520fe52e1a64d0b98d8821ec49e944913\classes.dex" />
+    </item>
+
+</items>

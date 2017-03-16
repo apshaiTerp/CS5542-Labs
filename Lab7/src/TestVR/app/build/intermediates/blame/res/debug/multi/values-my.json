@@ -1,0 +1,444 @@
+[
+    {
+        "outputFile": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 98,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 258,
+                        "endColumn": 94,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 81,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 353,
+                        "endColumn": 77,
+                        "endOffset": 430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 286,
+                    "endColumn": 85,
+                    "endOffset": 367
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 431,
+                        "endColumn": 81,
+                        "endOffset": 512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 372,
+                    "endColumn": 117,
+                    "endOffset": 485
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 513,
+                        "endColumn": 113,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 490,
+                    "endColumn": 195,
+                    "endOffset": 681
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 627,
+                        "endColumn": 191,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 686,
+                    "endColumn": 149,
+                    "endOffset": 831
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 819,
+                        "endColumn": 145,
+                        "endOffset": 964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 836,
+                    "endColumn": 142,
+                    "endOffset": 974
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 965,
+                        "endColumn": 138,
+                        "endOffset": 1103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 979,
+                    "endColumn": 85,
+                    "endOffset": 1060
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1104,
+                        "endColumn": 81,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1065,
+                    "endColumn": 108,
+                    "endOffset": 1169
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1186,
+                        "endColumn": 104,
+                        "endOffset": 1290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1174,
+                    "endColumn": 118,
+                    "endOffset": 1288
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1291,
+                        "endColumn": 114,
+                        "endOffset": 1405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1293,
+                    "endColumn": 117,
+                    "endOffset": 1406
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1406,
+                        "endColumn": 113,
+                        "endOffset": 1519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1411,
+                    "endColumn": 88,
+                    "endOffset": 1495
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1520,
+                        "endColumn": 84,
+                        "endOffset": 1604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1500,
+                    "endColumn": 217,
+                    "endOffset": 1713
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1605,
+                        "endColumn": 213,
+                        "endOffset": 1818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1718,
+                    "endColumn": 229,
+                    "endOffset": 1943
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1819,
+                        "endColumn": 225,
+                        "endOffset": 2044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1948,
+                    "endColumn": 104,
+                    "endOffset": 2048
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2045,
+                        "endColumn": 100,
+                        "endOffset": 2145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2053,
+                    "endColumn": 115,
+                    "endOffset": 2164
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2146,
+                        "endColumn": 111,
+                        "endOffset": 2257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2169,
+                    "endColumn": 105,
+                    "endOffset": 2270
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 2258,
+                        "endColumn": 101,
+                        "endOffset": 2359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2275,
+                    "endColumn": 139,
+                    "endOffset": 2410
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 2360,
+                        "endColumn": 135,
+                        "endOffset": 2495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2415,
+                    "endColumn": 169,
+                    "endOffset": 2580
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 2496,
+                        "endColumn": 169,
+                        "endOffset": 2665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2585,
+                    "endColumn": 104,
+                    "endOffset": 2685
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 2666,
+                        "endColumn": 100,
+                        "endOffset": 2766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2690,
+                    "endColumn": 84,
+                    "endOffset": 2770
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2767,
+                        "endColumn": 80,
+                        "endOffset": 2847
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2775,
+                    "endColumn": 89,
+                    "endOffset": 2860
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2848,
+                        "endColumn": 85,
+                        "endOffset": 2933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2865,
+                    "endColumn": 107,
+                    "endOffset": 2968
+                },
+                "from": {
+                    "file": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-base\\1.10.0\\res\\values-my\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2934,
+                        "endColumn": 103,
+                        "endOffset": 3037
+                    }
+                }
+            }
+        ]
+    }
+]

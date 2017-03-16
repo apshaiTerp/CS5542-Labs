@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_cardboard_white_24.png",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-commonwidget\\1.20.0\\res\\drawable-xhdpi-v4\\quantum_ic_cardboard_white_24.png"
+    },
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_settings_white_24.png",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-common\\1.20.0\\res\\drawable-xhdpi-v4\\quantum_ic_settings_white_24.png"
+    },
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_info_white_24.png",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-commonwidget\\1.20.0\\res\\drawable-xhdpi-v4\\quantum_ic_info_white_24.png"
+    },
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_close_white_24.png",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-commonwidget\\1.20.0\\res\\drawable-xhdpi-v4\\quantum_ic_close_white_24.png"
+    },
+    {
+        "merged": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_fullscreen_white_24.png",
+        "source": "C:\\Users\\ac010168\\workspaces\\umkc\\TestVR\\app\\build\\intermediates\\exploded-aar\\com.google.vr\\sdk-commonwidget\\1.20.0\\res\\drawable-xhdpi-v4\\quantum_ic_fullscreen_white_24.png"
+    }
+]
