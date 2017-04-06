@@ -22,3 +22,4 @@ Lab 8: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab8](https://github.com/
 
 Lab 9: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab9](https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab9)
 
+Lab 10: [https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab10](https://github.com/apshaiTerp/CS5542-Labs/wiki/Lab10)

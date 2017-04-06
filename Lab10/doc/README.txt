@@ -1,0 +1,1 @@
+There is no corresponding documentation for this Lab.  Neither portion of the Lab actually helps advance our work on our semester project, so I chose to ignore this work in favor of the actual project code.
