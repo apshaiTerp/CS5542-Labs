@@ -1,0 +1,1 @@
+There is no corresponding documentation for this Lab.  I couldn't get the first portion to work, so there are no tensorflow metrics to be reported on, and I think the Inception model doesn't help me anyway.  I also have nothing to show for the Conversation API portion of this lab.
